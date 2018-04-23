@@ -7,3 +7,32 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.nav-bar ul{
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  background: orangered;
+  list-style-type: none;
+  margin: 0em 2em;
+}
+
+li{
+  padding: 0em .5em;
+}
+
+.main-box ol{
+  display: flex;
+  flex-direction: column;
+  background: lightgrey;
+  margin: 0em 2em;
+}
+
+.articles ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0em 2em;
+}
+
+
